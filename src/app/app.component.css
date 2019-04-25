@@ -1,0 +1,31 @@
+main {
+  width: 100%;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+mat-card {
+  width: 35%;
+  margin: auto;
+  display: block;
+  margin-top: 2rem;
+}
+
+mat-form-field {
+  display: block;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+}
+
+app-photo {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto;
+  grid-gap: 1rem;
+  width: 60%;
+  margin: auto;
+  margin-top: 2rem;
+}
